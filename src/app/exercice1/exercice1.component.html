@@ -1,1 +1,10 @@
-<p>exercice1 works!</p>
+<h1>Exercice 1</h1>
+
+<h2>Liaison sur un attribut</h2>
+<input [type]="inputType">
+
+<h2>Liaison d'évènements</h2>
+<button (click)="onClick()">Click me</button>
+
+<h2>Avec une interpolation de variable</h2>
+<p *ngFor="let message of messages">{{ message.title }}</p>
